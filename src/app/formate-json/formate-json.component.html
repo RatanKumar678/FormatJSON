@@ -1,0 +1,17 @@
+<!-- Terminal -->
+<!-- Next Steps -->
+<div class="text-center">
+    <h2>Format JSON</h2>
+    <!-- <p>What do you want to do next with your app?</p> -->
+</div>
+
+<div class="json-format-section">
+    <div class="input-section">
+        <textarea placeholder="Paste or type your column-formatting JSON here." #InputValue></textarea>
+        <span class="error-msg" *ngIf="showInputError">{{inputErrorMsg}}</span>
+        <button class="preview" (click)="getInputJSON()">Format JSON</button><button class="reset" (click)="reset()">Reset</button>
+    </div>
+    <div class="terminal">
+        <ace-editor [(text)]="code" mode="json" style="height:100%;width:100%"></ace-editor>
+    </div>
+</div>
