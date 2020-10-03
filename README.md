@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## What App DO
+
+1] It should have an editable field where the user can paste a formatted JSON (Input). 
+2)	It should show a non-editable field displaying the updated JSON (Output).
+
